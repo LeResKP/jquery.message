@@ -1,0 +1,7 @@
+{
+    "name": "jQuery.message",
+    "version": "0.0.1",
+    "scripts": {
+        "test" : "node test/testrunner.js"
+    }
+}

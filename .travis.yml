@@ -1,0 +1,6 @@
+language: javascript
+node_js:
+ - 0.8
+ - 0.6
+install: npm install qunit@stable jsdom
+script: npm test
