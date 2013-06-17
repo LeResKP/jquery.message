@@ -84,11 +84,11 @@
             }
         },
         set_position: function(settings){
-            if (settings.css.position != 'absolute')
+            this.$element.css(settings.css);
+            if (settings.css.position != 'absolute' && settings.css.position != 'fixed')
                 return
 
             var left = ($('body').width() - this.$element.width()) / 2;
-            this.$element.css(settings.css);
             this.$element.css({left: left + 'px'});
         },
         info: function(){
